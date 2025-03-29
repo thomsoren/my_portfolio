@@ -95,26 +95,34 @@ export const DATA = {
     },
   ],
   projects: [
-    {
-      title: "Kollapp",
+     {
+      title: "Futleie",
       href: "",
-      dates: "2024",
+      dates: "2025",
       active: false,
       description:
-        "App for studenter i kollektiv som forenkler hverdagen ved å gjøre det enkelt å dele på oppgaver som søppel og rengjøring, håndtere oppgjør ved spleising av mat, og kommunisere via integrert gruppechat. Automatiserer mange av de utfordringene studenter i kollektiv møter.",
+        "En utleienettside utviklet i faget Programvareutvikling.\nFokus på brukeropplevelse, sikker innlogging og enkel administrasjon av utleieobjekter.\nArbeidet ga god innsikt i planlegging, koding og testing av en fullstendig webapplikasjon.",
       technologies: [
-        "Java",
-        "JavaFX"
+        "Next.js",
+        "Tailwind CSS",
+        "Supabase",
+        "Fullstack weutvikling",
+        "Programvareutvikling"
       ],
       links: [
         {
           icon: <Icons.github className="size-4" />,
           type: "github",
-          href: "https://github.com/ludvigovrevik/Kollapp",
+          href: "https://github.com/thomsoren/futleie-github",
+        },
+        {
+          icon: <Icons.globe className="size-4" />,
+          type: "website",
+          href: "https://futleie56.vercel.app/",
         },
       ],
       image: "",
-      video: "/videos/Kollapp.mp4"
+      video: "/videos/Futleie.mp4"
     },
     {
       title: "Cogito x Infor",
@@ -164,34 +172,27 @@ export const DATA = {
       image: "",
       video: "/videos/News_recommender.mp4"
     },
+   
     {
-      title: "Futleie",
+      title: "Kollapp",
       href: "",
-      dates: "2025",
+      dates: "2024",
       active: false,
       description:
-        "En utleienettside utviklet i faget Programvareutvikling.\nFokus på brukeropplevelse, sikker innlogging og enkel administrasjon av utleieobjekter.\nArbeidet ga god innsikt i planlegging, koding og testing av en fullstendig webapplikasjon.",
+        "App for studenter i kollektiv som forenkler hverdagen ved å gjøre det enkelt å dele på oppgaver som søppel og rengjøring, håndtere oppgjør ved spleising av mat, og kommunisere via integrert gruppechat. Automatiserer mange av de utfordringene studenter i kollektiv møter.",
       technologies: [
-        "Next.js",
-        "Tailwind CSS",
-        "Supabase",
-        "Fullstack weutvikling",
-        "Programvareutvikling"
+        "Java",
+        "JavaFX"
       ],
       links: [
         {
           icon: <Icons.github className="size-4" />,
           type: "github",
-          href: "https://github.com/thomsoren/futleie-github",
-        },
-        {
-          icon: <Icons.globe className="size-4" />,
-          type: "website",
-          href: "https://futleie56.vercel.app/",
+          href: "https://github.com/ludvigovrevik/Kollapp",
         },
       ],
       image: "",
-      video: "/videos/Futleie.mp4"
+      video: "/videos/Kollapp.mp4"
     },
   ],
   hackathons: [
@@ -201,7 +202,7 @@ export const DATA = {
       location: "Trondheim",
       description:
         "Deltakerne fikk delta på et 48-timers hackathon i regi av Start Code, hvor vi skulle løse en case fra en av hovedsamarbeidspartnerne, emno. Her jobbet vi med å koble en Raspberry Pi opp mot en nettside automatisk. Det var en intens og lærerik opplevelse som ga innsikt i både maskinvareintegrasjon og webutvikling under tidspress.",
-      image: "",
+      image: "/startntnu.jpeg",
       links: []
     },
     {
@@ -210,7 +211,7 @@ export const DATA = {
       location: "Oslo",
       description:
         "Arrangert av DNV med fokus på utvikling av en objektdeteksjons-modell for autonome fartøy. Oppgaven var å lage en maskinlæringsmodell for hindringsdeteksjon – et kritisk steg i utviklingen av autonom kollisjonsunngåelse. Konkurransen ble gjennomført på Kaggle, med 24 timer til å oppnå høyest mulig nøyaktighet, samtidig som vi la vekt på modellens fortolkbarhet and risikovurdering. Vi endte opp på andreplass, og ble kåret til beste presentasjon og for mest kreative approach. Vi benyttet datasynmodeller som YOLO 11.",
-      image: "",
+      image: "/brainlogo.png",
       win: "2. plass | Beste presentasjon | Mest kreative approach",
       links: []
     }
