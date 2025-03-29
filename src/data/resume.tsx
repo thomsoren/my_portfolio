@@ -208,7 +208,7 @@ export const DATA = {
     {
       title: "BRAIN Hackathon 2025",
       dates: "15.–16. mars 2025",
-      location: "Oslo",
+      location: "Trondheim",
       description:
         "Arrangert av DNV med fokus på utvikling av en objektdeteksjons-modell for autonome fartøy. Oppgaven var å lage en maskinlæringsmodell for hindringsdeteksjon – et kritisk steg i utviklingen av autonom kollisjonsunngåelse. Konkurransen ble gjennomført på Kaggle, med 24 timer til å oppnå høyest mulig nøyaktighet, samtidig som vi la vekt på modellens fortolkbarhet and risikovurdering. Vi endte opp på andreplass, og ble kåret til beste presentasjon og for mest kreative approach. Vi benyttet datasynmodeller som YOLO 11.",
       image: "/brainlogo.png",
