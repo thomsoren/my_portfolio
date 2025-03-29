@@ -162,7 +162,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: ""
+      video: "/videos/News_recommender.mp4"
     },
     {
       title: "Futleie",
