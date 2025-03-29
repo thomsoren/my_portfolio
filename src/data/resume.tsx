@@ -97,7 +97,7 @@ export const DATA = {
   projects: [
      {
       title: "Futleie",
-      href: "",
+      href: "https://github.com/thomsoren/futleie-github",
       dates: "2025",
       active: false,
       description:
@@ -126,7 +126,7 @@ export const DATA = {
     },
     {
       title: "Cogito x Infor",
-      href: "",
+      href: "https://github.com/CogitoNTNU/cogitoxinfor-agents",
       dates: "2023 - nå",
       active: true,
       description:
@@ -151,7 +151,7 @@ export const DATA = {
     },
     {
       title: "Anbefalingssystem for nyheter",
-      href: "",
+      href: "https://github.com/jernbert/TDT4215---Recommender-Project",
       dates: "2025",
       active: false,
       description:
@@ -175,7 +175,7 @@ export const DATA = {
    
     {
       title: "Kollapp",
-      href: "",
+      href: "https://github.com/ludvigovrevik/Kollapp",
       dates: "2024",
       active: false,
       description:
