@@ -214,6 +214,17 @@ export const DATA = {
       image: "/brainlogo.png",
       win: "2. plass | Beste presentasjon | Mest kreative approach",
       links: []
-    }
+    },
+      {
+      title: "A* Hackathon 2025 w/ Norges Gruppen & Cogito",
+      dates: "4-5. april 2025",
+      location: "Trondheim",
+      description:
+        "På et 16‑timers hackathon arrangert av A* Consulting i samarbeid med Norges Gruppen og Cogito utviklet vi en sanntids‑AI (YOLOv11) for automatisk produktklassifisering, kvitteringsgenerering og tyverideteksjon i selvbetjeningskasser. Live‑demoen via mobilkamera, webapp og en god datasynmodell sikret oss en solid tredjeplass.",
+      image: "/astar.jpeg",
+      win: "3. plass",
+      links: []
+     
+    },
   ],
 } as const;
