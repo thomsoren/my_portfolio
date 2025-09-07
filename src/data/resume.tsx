@@ -152,7 +152,7 @@ export const DATA = {
     {
       title: "Cogito x Infor",
       href: "https://github.com/CogitoNTNU/cogitoxinfor-agents",
-      dates: "2023 - now",
+      dates: "2023 - 2025",
       active: true,
       description:
         "Developing recommendation systems and price recommendations for customers based on previous purchase data.\nExperimenting with AI agents to optimize internal business processes.\nResponsible for both technical implementation and team leadership.",
