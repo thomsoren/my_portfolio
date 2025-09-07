@@ -123,7 +123,7 @@ export default function Page() {
                   Check out my latest projects
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I've worked on various projects, from simple websites to complex web applications. Here are some of my favorites.
+                  I&apos;ve worked on various projects, from simple websites to complex web applications. Here are some of my favorites.
                 </p>
               </div>
             </div>
@@ -162,7 +162,7 @@ export default function Page() {
                   I love building things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my studies, I have participated in {DATA.hackathons.length} hackathons. People from all over the country gather to build incredible things in 2-3 days. It's inspiring to see the endless possibilities created by committed and passionate people.
+                  During my studies, I have participated in {DATA.hackathons.length} hackathons. People from all over the country gather to build incredible things in 2-3 days. It&apos;s inspiring to see the endless possibilities created by committed and passionate people.
                 </p>
               </div>
             </div>
