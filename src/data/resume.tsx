@@ -91,9 +91,9 @@ export const DATA = {
       title: "AI Intern / Project Leader",
       logoUrl: getLogoUrl("cog.png"),
       start: "2024",
-      end: "now",
+      end: "2025",
       description:
-        "Leading a team of 4 students in collaboration with Infor, the world's third-largest ERP systems provider.\nDeveloped several AI-based solutions, including recommendation systems, price recommendations, and now AI agents to improve business processes.\nFocusing on machine learning, project management, and practical implementation of AI solutions.",
+        "Lead a team of 4 students in collaboration with Infor, the world's third-largest ERP systems provider.\nDeveloped several AI-based solutions, including recommendation systems, price recommendations, and now AI agents to improve business processes.\nFocusing on machine learning, project management, and practical implementation of AI solutions.",
     },
     {
       company: "Nightlife Industry",
