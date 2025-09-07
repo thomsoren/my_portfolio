@@ -1,5 +1,6 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
+import { getAssetUrl, getVideoUrl, getImageUrl, getLogoUrl } from "@/lib/s3";
 
 export const DATA = {
   name: "Thomas Nordby Sørensen",
@@ -11,7 +12,7 @@ export const DATA = {
     "Student and developer with a passion for AI, web development, and entrepreneurship.",
   summary:
     "I love building solutions that solve real problems and continuously learning new technologies. Currently studying Computer Science at NTNU and working part-time as a security guard. In my spare time, I lead an AI project in collaboration with Infor, where I've worked on recommendation systems, price recommendations, and experimented with AI agents. I'm always looking for new challenges and exciting opportunities!",
-  avatarUrl: "/profilepic.png",
+  avatarUrl: getImageUrl("profilepic.png"),
   skills: [
     "HTML",
     "CSS",
@@ -64,7 +65,7 @@ export const DATA = {
       badges: [],
       location: "Oslo",
       title: "Part-time Software Developer",
-      logoUrl: "/logos/openbridge.png",
+      logoUrl: getLogoUrl("openbridge.png"),
       start: "Aug 2025",
       end: "Present",
       description:
@@ -76,7 +77,7 @@ export const DATA = {
       badges: [],
       location: "Oslo",
       title: "Summer Intern",
-      logoUrl: "/logos/rystad.png",
+      logoUrl: getLogoUrl("rystad.png"),
       start: "Jun 2025",
       end: "Aug 2025",
       description:
@@ -88,7 +89,7 @@ export const DATA = {
       badges: [],
       location: "Trondheim",
       title: "AI Intern / Project Leader",
-      logoUrl: "/logos/cog.png",
+      logoUrl: getLogoUrl("cog.png"),
       start: "2024",
       end: "now",
       description:
@@ -97,10 +98,10 @@ export const DATA = {
     {
       company: "Nightlife Industry",
       badges: [],
-      href: "/logos/securitas.png",
+      href: getLogoUrl("securitas.png"),
       location: "Trondheim",
       title: "Security Guard",
-      logoUrl: "/logos/securitas.png",
+      logoUrl: getLogoUrl("securitas.png"),
       start: "2023",
       end: "2025",
       description:
@@ -112,7 +113,7 @@ export const DATA = {
       school: "NTNU",
       href: "https://www.ntnu.no/",
       degree: "Bachelor in Computer Science",
-      logoUrl: "/logos/ntnu-logo.png",
+      logoUrl: getLogoUrl("ntnu-logo.png"),
       start: "2023",
       end: "2026 (ongoing)",
       description: "Studying programming, algorithms, databases, and web development.\nCombining theoretical and practical skills to create robust IT solutions."
@@ -146,7 +147,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "/videos/Futleie.mp4"
+      video: getVideoUrl("Futleie.mp4")
     },
     {
       title: "Cogito x Infor",
@@ -171,7 +172,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "/videos/InforBrowserUse2.mp4"
+      video: getVideoUrl("InforBrowserUse2.mp4")
     },
     {
       title: "News Recommendation System",
@@ -194,7 +195,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "/videos/News_recommender.mp4"
+      video: getVideoUrl("News_recommender.mp4")
     },
    
     {
@@ -216,7 +217,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "/videos/Kollapp.mp4"
+      video: getVideoUrl("Kollapp.mp4")
     },
   ],
   hackathons: [
@@ -226,7 +227,7 @@ export const DATA = {
       location: "Norway",
       description:
         "Participated in the Norwegian national hackathon championship, competing against top teams from across the country. Achieved second place through innovative problem-solving and technical excellence.",
-      image: "/norwegian-championship.png",
+      image: getImageUrl("nm-ai.png"),
       win: "2nd place - Norwegian Championship",
       links: []
     },
@@ -236,7 +237,7 @@ export const DATA = {
       location: "Trondheim",
       description:
         "Deltakerne fikk delta på et 48-timers hackathon i regi av Start Code, hvor vi skulle løse en case fra en av hovedsamarbeidspartnerne, emno. Her jobbet vi med å koble en Raspberry Pi opp mot en nettside automatisk. Det var en intens og lærerik opplevelse som ga innsikt i både maskinvareintegrasjon og webutvikling under tidspress.",
-      image: "/startntnu.jpeg",
+      image: getImageUrl("startntnu.jpeg"),
       links: []
     },
     {
@@ -245,7 +246,7 @@ export const DATA = {
       location: "Trondheim",
       description:
         "Arrangert av DNV med fokus på utvikling av en objektdeteksjons-modell for autonome fartøy. Oppgaven var å lage en maskinlæringsmodell for hindringsdeteksjon – et kritisk steg i utviklingen av autonom kollisjonsunngåelse. Konkurransen ble gjennomført på Kaggle, med 24 timer til å oppnå høyest mulig nøyaktighet, samtidig som vi la vekt på modellens fortolkbarhet and risikovurdering. Vi endte opp på andreplass, og ble kåret til beste presentasjon og for mest kreative approach. Vi benyttet datasynmodeller som YOLO 11.",
-      image: "/brainlogo.png",
+      image: getImageUrl("brainlogo.png"),
       win: "2. plass | Beste presentasjon | Mest kreative approach",
       links: []
     },
@@ -255,7 +256,7 @@ export const DATA = {
       location: "Trondheim",
       description:
         "During a 16-hour hackathon organized by A* Consulting in collaboration with Norges Gruppen and Cogito, we developed a real-time AI system (YOLOv11) for automatic product classification, receipt generation, and theft detection in self-checkout systems. Our live demo using mobile camera, web app, and a robust computer vision model secured us a solid third place.",
-      image: "/astar.jpeg",
+      image: getImageUrl("astar.jpeg"),
       win: "3rd place",
       links: []
     },
