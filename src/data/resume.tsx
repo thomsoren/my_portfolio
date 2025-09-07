@@ -8,9 +8,9 @@ export const DATA = {
   location: "Trondheim, Norway",
   locationLink: "https://www.google.com/maps/place/trondheim",
   description:
-    "Student og utvikler med lidenskap for AI, web og entreprenørskap.",
+    "Student and developer with a passion for AI, web development, and entrepreneurship.",
   summary:
-    "Jeg elsker å bygge løsninger som løser reelle problemer, og lærer kontinuerlig nye teknologier. Akkurat nå studerer jeg informatikk ved NTNU og jobber deltid som vekter. På fritiden leder jeg et AI-prosjekt i samarbeid med Infor, der jeg blant annet har jobbet med anbefalingssystemer, prisanbefaling og eksperimenterer med AI-agenter. Jeg er alltid på utkikk etter nye utfordringer og spennende muligheter!",
+    "I love building solutions that solve real problems and continuously learning new technologies. Currently studying Computer Science at NTNU and working part-time as a security guard. In my spare time, I lead an AI project in collaboration with Infor, where I've worked on recommendation systems, price recommendations, and experimented with AI agents. I'm always looking for new challenges and exciting opportunities!",
   avatarUrl: "/profilepic.png",
   skills: [
     "HTML",
@@ -59,39 +59,63 @@ export const DATA = {
 
   work: [
     {
+      company: "OpenBridge",
+      href: "",
+      badges: [],
+      location: "Oslo",
+      title: "Part-time Software Developer",
+      logoUrl: "/logos/openbridge.png",
+      start: "Aug 2025",
+      end: "Present",
+      description:
+        "Working as a part-time software developer while studying, focusing on full-stack development and contributing to innovative software solutions.",
+    },
+    {
+      company: "Rystad Energy",
+      href: "",
+      badges: [],
+      location: "Oslo",
+      title: "Summer Intern",
+      logoUrl: "/logos/rystad.png",
+      start: "Jun 2025",
+      end: "Aug 2025",
+      description:
+        "Summer internship at a leading energy intelligence company, gaining experience in data analysis and software development within the energy sector.",
+    },
+    {
       company: "Cogito x Infor",
       href: "",
       badges: [],
       location: "Trondheim",
-      title: "AI Intern / Prosjektleder",
+      title: "AI Intern / Project Leader",
       logoUrl: "/logos/cog.png",
       start: "2024",
-      end: "nå",
+      end: "now",
       description:
-        "Leder et team på 4 studenter i et samarbeid med Infor, verdens tredje største leverandør av ERP-systemer.\nHar utviklet flere AI-baserte løsninger, inkludert anbefalingssystemer, prisanbefaling og nå AI-agenter for å forbedre forretningsprosesser.\nFokuserer på maskinlæring, prosjektledelse og praktisk implementering av AI-løsninger.",
+        "Leading a team of 4 students in collaboration with Infor, the world's third-largest ERP systems provider.\nDeveloped several AI-based solutions, including recommendation systems, price recommendations, and now AI agents to improve business processes.\nFocusing on machine learning, project management, and practical implementation of AI solutions.",
     },
     {
-      company: "Utelivsbransjen",
+      company: "Nightlife Industry",
       badges: [],
       href: "/logos/securitas.png",
       location: "Trondheim",
-      title: "Vekter",
+      title: "Security Guard",
       logoUrl: "/logos/securitas.png",
       start: "2023",
       end: "2025",
       description:
-        "Ansvar for sikkerheten til gjester på ulike utesteder.\nUtvikler gode kommunikasjons- og samarbeidsevner gjennom å håndtere utfordrende situasjoner i høyt tempo.",
+        "Responsible for guest safety at various nightlife venues.\nDeveloping strong communication and collaboration skills by handling challenging situations at a fast pace.",
     },
   ],
   education: [
     {
       school: "NTNU",
       href: "https://www.ntnu.no/",
-      degree: "Bachelor i Informatikk",
+      degree: "Bachelor in Computer Science",
       logoUrl: "/logos/ntnu-logo.png",
       start: "2023",
-      end: "2026 (pågående)",
-      description: "Studerer programmering, algoritmer, databaser og webutvikling.\nKombinerer teoretiske og praktiske ferdigheter for å skape robuste IT-løsninger."
+      end: "2026 (ongoing)",
+      description: "Studying programming, algorithms, databases, and web development.\nCombining theoretical and practical skills to create robust IT solutions."
     },
   ],
   projects: [
@@ -101,13 +125,13 @@ export const DATA = {
       dates: "2025",
       active: false,
       description:
-        "En utleienettside utviklet i faget Programvareutvikling.\nFokus på brukeropplevelse, sikker innlogging og enkel administrasjon av utleieobjekter.\nArbeidet ga god innsikt i planlegging, koding og testing av en fullstendig webapplikasjon.",
+        "A rental website developed in the Software Development course.\nFocus on user experience, secure login, and simple administration of rental objects.\nThe work provided good insight into planning, coding, and testing a complete web application.",
       technologies: [
         "Next.js",
         "Tailwind CSS",
         "Supabase",
-        "Fullstack weutvikling",
-        "Programvareutvikling"
+        "Fullstack web development",
+        "Software development"
       ],
       links: [
         {
@@ -127,17 +151,17 @@ export const DATA = {
     {
       title: "Cogito x Infor",
       href: "https://github.com/CogitoNTNU/cogitoxinfor-agents",
-      dates: "2023 - nå",
+      dates: "2023 - now",
       active: true,
       description:
-        "Utvikler anbefalingssystemer og prisanbefalinger for kunder basert på tidligere kjøpsdata.\nEksperimenterer med AI-agenter for å optimalisere interne forretningsprosesser.\nHar ansvar for både teknisk gjennomføring og teamledelse.",
+        "Developing recommendation systems and price recommendations for customers based on previous purchase data.\nExperimenting with AI agents to optimize internal business processes.\nResponsible for both technical implementation and team leadership.",
       technologies: [
-        "Maskinlæring",
+        "Machine Learning",
         "Python",
-        "ERP-systemer",
-        "Prosjektledelse",
-        "AI-agenter",
-        "Anbefalingssystemer"
+        "ERP Systems",
+        "Project Management",
+        "AI Agents",
+        "Recommendation Systems"
       ],
       links: [
         {
@@ -150,16 +174,16 @@ export const DATA = {
       video: "/videos/InforBrowserUse2.mp4"
     },
     {
-      title: "Anbefalingssystem for nyheter",
+      title: "News Recommendation System",
       href: "https://github.com/jernbert/TDT4215---Recommender-Project",
       dates: "2025",
       active: false,
       description:
-        "Utviklet et content-based anbefalingssystem for nyhetsartikler som bruker sentence transformers til å finne lignende artikler basert på brukerpreferanser.\nHadde ansvar for hele pipeline fra datainnsamling til implementering av anbefalingsalgoritmen.",
+        "Developed a content-based recommendation system for news articles that uses sentence transformers to find similar articles based on user preferences.\nResponsible for the entire pipeline from data collection to implementation of the recommendation algorithm.",
       technologies: [
         "Python",
         "Sentence Transformers",
-        "Maskinlæring",
+        "Machine Learning",
         "NLP"
       ],
       links: [
@@ -179,7 +203,7 @@ export const DATA = {
       dates: "2024",
       active: false,
       description:
-        "App for studenter i kollektiv som forenkler hverdagen ved å gjøre det enkelt å dele på oppgaver som søppel og rengjøring, håndtere oppgjør ved spleising av mat, og kommunisere via integrert gruppechat. Automatiserer mange av de utfordringene studenter i kollektiv møter.",
+        "App for students in shared housing that simplifies daily life by making it easy to share tasks like garbage and cleaning, handle settlements when splitting food costs, and communicate via integrated group chat. Automates many of the challenges students in shared housing face.",
       technologies: [
         "Java",
         "JavaFX"
@@ -196,6 +220,16 @@ export const DATA = {
     },
   ],
   hackathons: [
+    {
+      title: "Norwegian Championship Hackathon 2025",
+      dates: "2025",
+      location: "Norway",
+      description:
+        "Participated in the Norwegian national hackathon championship, competing against top teams from across the country. Achieved second place through innovative problem-solving and technical excellence.",
+      image: "/norwegian-championship.png",
+      win: "2nd place - Norwegian Championship",
+      links: []
+    },
     {
       title: "Start Code 2024",
       dates: "25.–27. oktober 2024",
@@ -215,16 +249,15 @@ export const DATA = {
       win: "2. plass | Beste presentasjon | Mest kreative approach",
       links: []
     },
-      {
+    {
       title: "A* Hackathon 2025 w/ Norges Gruppen & Cogito",
-      dates: "4-5. april 2025",
+      dates: "April 4-5, 2025",
       location: "Trondheim",
       description:
-        "På et 16‑timers hackathon arrangert av A* Consulting i samarbeid med Norges Gruppen og Cogito utviklet vi en sanntids‑AI (YOLOv11) for automatisk produktklassifisering, kvitteringsgenerering og tyverideteksjon i selvbetjeningskasser. Live‑demoen via mobilkamera, webapp og en god datasynmodell sikret oss en solid tredjeplass.",
+        "During a 16-hour hackathon organized by A* Consulting in collaboration with Norges Gruppen and Cogito, we developed a real-time AI system (YOLOv11) for automatic product classification, receipt generation, and theft detection in self-checkout systems. Our live demo using mobile camera, web app, and a robust computer vision model secured us a solid third place.",
       image: "/astar.jpeg",
-      win: "3. plass",
+      win: "3rd place",
       links: []
-     
     },
   ],
 } as const;

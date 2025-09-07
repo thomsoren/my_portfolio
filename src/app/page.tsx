@@ -22,7 +22,7 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
                 yOffset={8}
-                text={`Hei, jeg er ${DATA.name.split(" ")[0]}`}
+                text={`Hi, I'm ${DATA.name.split(" ")[0]}`}
               />
               <BlurFadeText
                 className="max-w-[600px] md:text-xl"
@@ -41,7 +41,7 @@ export default function Page() {
       </section>
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
-                <h2 className="text-xl font-bold">Om meg</h2>
+                <h2 className="text-xl font-bold">About me</h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
           <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
@@ -52,7 +52,7 @@ export default function Page() {
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
-                <h2 className="text-xl font-bold">Arbeidserfaring</h2>
+                <h2 className="text-xl font-bold">Work Experience</h2>
           </BlurFade>
           {DATA.work.map((work, id) => (
             <BlurFade
@@ -77,7 +77,7 @@ export default function Page() {
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
-                <h2 className="text-xl font-bold">Utdanning</h2>
+                <h2 className="text-xl font-bold">Education</h2>
           </BlurFade>
           {DATA.education.map((education, id) => (
             <BlurFade
@@ -100,7 +100,7 @@ export default function Page() {
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
-                <h2 className="text-xl font-bold">Ferdigheter</h2>
+                <h2 className="text-xl font-bold">Skills</h2>
           </BlurFade>
           <div className="flex flex-wrap gap-1">
             {DATA.skills.map((skill, id) => (
@@ -117,13 +117,13 @@ export default function Page() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  Mine prosjekter
+                  My projects
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Se mine siste prosjekter
+                  Check out my latest projects
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Jeg har jobbet med ulike prosjekter, fra enkle nettsider til komplekse webapplikasjoner. Her er noen av favorittene mine.
+                  I've worked on various projects, from simple websites to complex web applications. Here are some of my favorites.
                 </p>
               </div>
             </div>
@@ -159,10 +159,10 @@ export default function Page() {
                   Hackathons
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Jeg elsker å bygge ting
+                  I love building things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Under studiene har jeg deltatt på {DATA.hackathons.length} hackathons. Folk fra hele landet samles for å bygge utrolige ting på 2-3 dager. Det er inspirerende å se de uendelige mulighetene som skapes av engasjerte og passionerte mennesker.
+                  During my studies, I have participated in {DATA.hackathons.length} hackathons. People from all over the country gather to build incredible things in 2-3 days. It's inspiring to see the endless possibilities created by committed and passionate people.
                 </p>
               </div>
             </div>
@@ -193,20 +193,20 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
             <div className="space-y-3">
               <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                Kontakt
+                Contact
               </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Kontakt meg
+                  Get in touch
                 </h2>
                 <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Lyst til å prate? Ta gjerne kontakt via{" "}
+                  Want to chat? Feel free to reach out via{" "}
                 <Link
                   href={DATA.contact.social.LinkedIn.url}
                   className="text-blue-500 hover:underline"
                 >
                   LinkedIn
                 </Link>{" "}
-                eller send meg en e-post på {DATA.contact.email}.
+                or send me an email at {DATA.contact.email}.
               </p>
             </div>
           </BlurFade>
