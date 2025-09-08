@@ -222,13 +222,13 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "Norwegian Championship Hackathon 2025",
+      title: "Norwegian AI Championship 2025",
       dates: "2025",
       location: "Norway",
       description:
-        "Participated in the Norwegian national hackathon championship, competing against top teams from across the country. Achieved second place through innovative problem-solving and technical excellence.",
+        "Participated in Norway's first AI championship, competing with a team of 10 people against top teams from across the country. Achieved second place through innovative problem-solving and technical excellence.",
       image: getImageUrl("nm-ai.png"),
-      win: "2nd place - Norwegian Championship",
+      win: "2nd place - Norwegian AI Championship",
       links: []
     },
     {
