@@ -12,7 +12,7 @@ export const DATA = {
     "Student and developer with a passion for AI, web development, and entrepreneurship.",
   summary:
     "I love building solutions that solve real problems and continuously learning new technologies. Currently studying Computer Science at NTNU and working part-time as a security guard. In my spare time, I lead an AI project in collaboration with Infor, where I've worked on recommendation systems, price recommendations, and experimented with AI agents. I'm always looking for new challenges and exciting opportunities!",
-  avatarUrl: getImageUrl("profilepic.png"),
+  avatarUrl: getImageUrl("thomas-profilbilde.jpg"),
   skills: [
     "HTML",
     "CSS",
@@ -226,7 +226,7 @@ export const DATA = {
       dates: "2025",
       location: "Norway",
       description:
-        "Participated in Norway's first AI championship, competing with a team of 10 people against top teams from across the country. Achieved second place through innovative problem-solving and technical excellence.",
+        "We won 2nd place in the Norwegian AI Championship 2025 with Cogito, a week-long competition featuring three challenging tasks: NLP with retrieval-augmented generation for medical documents, reinforcement learning with a self-driving car, and computer vision with tumor segmentation.",
       image: getImageUrl("nm-ai.png"),
       win: "2nd place - Norwegian AI Championship",
       links: []
