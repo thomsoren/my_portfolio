@@ -222,32 +222,23 @@ export const DATA = {
   ],
   hackathons: [
     {
+      title: "Recover Norge Hackathon",
+      dates: "October 24-25, 2025",
+      location: "Trondheim",
+      description:
+        "We won the Recover Norge Hackathon by developing a machine learning solution to predict missing actions in repair calculations. Recover Norge helps people when their homes are damaged, but their team often spends hours manually identifying missing actions. We built an ensemble model combining XGBoost, CatBoost, LightGBM, and a custom neural network to automate this process. For the final task, we created three live production demos in just a few hours based on real problems Recover faces daily, demonstrating practical tools they could immediately use to speed up their workflow and focus on fixing homes instead of fixing calculations.",
+      image: getImageUrl("recover.png"),
+      win: "1st place",
+      links: []
+    },
+    {
       title: "Norwegian AI Championship 2025",
-      dates: "2025",
+      dates: "August 2025",
       location: "Norway",
       description:
         "We won 2nd place in the Norwegian AI Championship 2025 with Cogito, a week-long competition featuring three challenging tasks: NLP with retrieval-augmented generation for medical documents, reinforcement learning with a self-driving car, and computer vision with tumor segmentation.",
       image: getImageUrl("nm-ai.png"),
       win: "2nd place - Norwegian AI Championship",
-      links: []
-    },
-    {
-      title: "Start Code 2024",
-      dates: "25.–27. oktober 2024",
-      location: "Trondheim",
-      description:
-        "Deltakerne fikk delta på et 48-timers hackathon i regi av Start Code, hvor vi skulle løse en case fra en av hovedsamarbeidspartnerne, emno. Her jobbet vi med å koble en Raspberry Pi opp mot en nettside automatisk. Det var en intens og lærerik opplevelse som ga innsikt i både maskinvareintegrasjon og webutvikling under tidspress.",
-      image: getImageUrl("startntnu.jpeg"),
-      links: []
-    },
-    {
-      title: "BRAIN Hackathon 2025",
-      dates: "15.–16. mars 2025",
-      location: "Trondheim",
-      description:
-        "Arrangert av DNV med fokus på utvikling av en objektdeteksjons-modell for autonome fartøy. Oppgaven var å lage en maskinlæringsmodell for hindringsdeteksjon – et kritisk steg i utviklingen av autonom kollisjonsunngåelse. Konkurransen ble gjennomført på Kaggle, med 24 timer til å oppnå høyest mulig nøyaktighet, samtidig som vi la vekt på modellens fortolkbarhet and risikovurdering. Vi endte opp på andreplass, og ble kåret til beste presentasjon og for mest kreative approach. Vi benyttet datasynmodeller som YOLO 11.",
-      image: getImageUrl("brainlogo.png"),
-      win: "2. plass | Beste presentasjon | Mest kreative approach",
       links: []
     },
     {
@@ -258,6 +249,25 @@ export const DATA = {
         "During a 16-hour hackathon organized by A* Consulting in collaboration with Norges Gruppen and Cogito, we developed a real-time AI system (YOLOv11) for automatic product classification, receipt generation, and theft detection in self-checkout systems. Our live demo using mobile camera, web app, and a robust computer vision model secured us a solid third place.",
       image: getImageUrl("astar.jpeg"),
       win: "3rd place",
+      links: []
+    },
+    {
+      title: "BRAIN Hackathon 2025",
+      dates: "March 15-16, 2025",
+      location: "Trondheim",
+      description:
+        "Organized by DNV with a focus on developing an object detection model for autonomous vessels. The task was to create a machine learning model for obstacle detection – a critical step in developing autonomous collision avoidance. The competition was conducted on Kaggle, with 24 hours to achieve the highest possible accuracy, while emphasizing model interpretability and risk assessment. We ended up in second place and were awarded best presentation and most creative approach. We used computer vision models like YOLO 11.",
+      image: getImageUrl("brainlogo.png"),
+      win: "2nd place | Best presentation | Most creative approach",
+      links: []
+    },
+    {
+      title: "Start Code 2024",
+      dates: "October 25-27, 2024",
+      location: "Trondheim",
+      description:
+        "Participated in a 48-hour hackathon organized by Start Code, where we solved a case from one of their main partners, emno. We worked on automatically connecting a Raspberry Pi to a website. It was an intense and educational experience that provided insight into both hardware integration and web development under time pressure.",
+      image: getImageUrl("startntnu.jpeg"),
       links: []
     },
   ],
