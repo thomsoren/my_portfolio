@@ -120,7 +120,119 @@ export const DATA = {
     },
   ],
   projects: [
-     {
+    {
+      title: "Ideate",
+      href: "",
+      dates: "December 2025",
+      active: true,
+      description:
+        "Single Sign-On connectors integrated with a chat interface.\nStreamlined authentication system that provides seamless user experience across multiple platforms.",
+      technologies: [
+        "SSO",
+        "Authentication",
+        "Chat Interface",
+        "TypeScript"
+      ],
+      links: [],
+      image: "",
+      video: ""
+    },
+    {
+      title: "thinkdraw",
+      href: "",
+      dates: "December 2025",
+      active: true,
+      description:
+        "Voice-to-voice AI-powered mind mapping tool that automatically generates visual mind maps from spoken input.\nCombines speech recognition, natural language processing, and automatic diagram generation to transform ideas into visual representations.",
+      technologies: [
+        "AI",
+        "Voice Recognition",
+        "Mind Mapping",
+        "NLP",
+        "Automatic Visualization"
+      ],
+      links: [],
+      image: "",
+      video: ""
+    },
+    {
+      title: "Bridgable MCP",
+      href: "https://bridgable.ai/",
+      dates: "October 2025",
+      active: true,
+      description:
+        "Making any AI agent a specialist at OpenBridge with one-line installation.\nConnects to RAG (Retrieval-Augmented Generation) to retrieve relevant information, enabling agents to quickly become domain experts in OpenBridge systems.",
+      technologies: [
+        "AI Agents",
+        "RAG",
+        "OpenBridge",
+        "MCP",
+        "Machine Learning"
+      ],
+      links: [
+        {
+          icon: <Icons.globe className="size-4" />,
+          type: "website",
+          href: "https://bridgable.ai/",
+        },
+      ],
+      image: "",
+      video: ""
+    },
+    {
+      title: "PokeClicker",
+      href: "https://github.com/thomsoren/PokeClicker",
+      dates: "September - November 2025",
+      active: true,
+      description:
+        "A reimagined version of Pokemon built as a web application using modern technologies.\nInteractive game experience combining classic Pokemon gameplay with modern web development.",
+      technologies: [
+        "React",
+        "Vite",
+        "MongoDB",
+        "TypeScript",
+        "Game Development"
+      ],
+      links: [
+        {
+          icon: <Icons.github className="size-4" />,
+          type: "github",
+          href: "https://github.com/thomsoren/PokeClicker",
+        },
+        {
+          icon: <Icons.globe className="size-4" />,
+          type: "website",
+          href: "https://pokeclicker.no/",
+        },
+      ],
+      image: "",
+      video: ""
+    },
+    {
+      title: "Vervify",
+      href: "https://vervify.no/",
+      dates: "August 2025",
+      active: true,
+      description:
+        "A comprehensive platform that brings together all student organizations at NTNU in one centralized website.\nOrganizations register themselves, creating a unified directory for students to discover and engage with campus activities.",
+      technologies: [
+        "Web Development",
+        "Database Management",
+        "User Registration",
+        "NTNU",
+        "Student Platform"
+      ],
+      links: [
+        {
+          icon: <Icons.globe className="size-4" />,
+          type: "website",
+          href: "https://vervify.no/",
+        },
+      ],
+      image: "",
+      video: ""
+    },
+    {
       title: "Futleie",
       href: "https://github.com/thomsoren/futleie-github",
       dates: "2025",
@@ -197,7 +309,7 @@ export const DATA = {
       image: "",
       video: getVideoUrl("News_recommender.mp4")
     },
-   
+
     {
       title: "Kollapp",
       href: "https://github.com/ludvigovrevik/Kollapp",
