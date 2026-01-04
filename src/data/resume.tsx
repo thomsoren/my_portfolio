@@ -9,29 +9,28 @@ export const DATA = {
   location: "Trondheim, Norway",
   locationLink: "https://www.google.com/maps/place/trondheim",
   description:
-    "Student and developer with a passion for AI, web development, and entrepreneurship.",
+    "I help teams ship reliable AI.\nFrom problem to product.",
   summary:
-    "I love building solutions that solve real problems and continuously learning new technologies. Currently studying Computer Science at NTNU and working part-time as a security guard. In my spare time, I lead an AI project in collaboration with Infor, where I've worked on recommendation systems, price recommendations, and experimented with AI agents. I'm always looking for new challenges and exciting opportunities!",
+    "I like building. I like learning. And I like the feeling when a messy workflow becomes a simple product. That's why I spend time on evaluation, reliability, and shipping, not just demos.",
   avatarUrl: getImageUrl("thomas-profilbilde.jpg"),
   skills: [
-    "HTML",
-    "CSS",
-    "JavaScript",
+    "Python",
+    "Machine Learning",
+    "RAG",
+    "Computer Vision",
+    "Reinforcement Learning",
+    "AI Agents",
+    "MCP",
+    "Recommender Systems",
     "TypeScript",
     "React",
     "Next.js",
     "Node.js",
-    "Python",
-    "Framer Motion",
     "Java",
-    "Figma",
-    "JavaFX",
-    "Git",
-    "Tailwind"
+    "Git"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "thomanso@stud.ntnu.no",
@@ -122,7 +121,7 @@ export const DATA = {
   projects: [
     {
       title: "Ideate",
-      href: "",
+      href: "https://ideate.thomasns.com/",
       dates: "December 2025",
       active: true,
       description:
@@ -133,13 +132,24 @@ export const DATA = {
         "Chat Interface",
         "TypeScript"
       ],
-      links: [],
+      links: [
+        {
+          icon: <Icons.github className="size-4" />,
+          type: "github",
+          href: "https://github.com/thomsoren/ideate",
+        },
+        {
+          icon: <Icons.globe className="size-4" />,
+          type: "website",
+          href: "https://ideate.thomasns.com/",
+        },
+      ],
       image: "",
       video: ""
     },
     {
       title: "thinkdraw",
-      href: "",
+      href: "https://github.com/thomsoren/thinkdraw",
       dates: "December 2025",
       active: true,
       description:
@@ -151,7 +161,13 @@ export const DATA = {
         "NLP",
         "Automatic Visualization"
       ],
-      links: [],
+      links: [
+        {
+          icon: <Icons.github className="size-4" />,
+          type: "github",
+          href: "https://github.com/thomsoren/thinkdraw",
+        },
+      ],
       image: "",
       video: ""
     },
@@ -177,7 +193,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: ""
+      video: getVideoUrl("bridgablemcpdemo.mp4")
     },
     {
       title: "PokeClicker",
@@ -206,7 +222,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: ""
+      video: getVideoUrl("pokemondemo.mp4")
     },
     {
       title: "Vervify",
@@ -224,6 +240,11 @@ export const DATA = {
       ],
       links: [
         {
+          icon: <Icons.github className="size-4" />,
+          type: "github",
+          href: "https://github.com/thomsoren/Vervify",
+        },
+        {
           icon: <Icons.globe className="size-4" />,
           type: "website",
           href: "https://vervify.no/",
@@ -231,6 +252,31 @@ export const DATA = {
       ],
       image: "",
       video: ""
+    },
+    {
+      title: "Cogito x Infor",
+      href: "https://github.com/CogitoNTNU/cogitoxinfor-agents",
+      dates: "2023 - 2025",
+      active: true,
+      description:
+        "Developing recommendation systems and price recommendations for customers based on previous purchase data.\nExperimenting with AI agents to optimize internal business processes.\nResponsible for both technical implementation and team leadership.",
+      technologies: [
+        "Machine Learning",
+        "Python",
+        "ERP Systems",
+        "Project Management",
+        "AI Agents",
+        "Recommendation Systems"
+      ],
+      links: [
+        {
+          icon: <Icons.github className="size-4" />,
+          type: "github",
+          href: "https://github.com/CogitoNTNU/cogitoxinfor-agents",
+        },
+      ],
+      image: "",
+      video: getVideoUrl("InforBrowserUse2.mp4")
     },
     {
       title: "Futleie",
@@ -260,31 +306,6 @@ export const DATA = {
       ],
       image: "",
       video: getVideoUrl("Futleie.mp4")
-    },
-    {
-      title: "Cogito x Infor",
-      href: "https://github.com/CogitoNTNU/cogitoxinfor-agents",
-      dates: "2023 - 2025",
-      active: true,
-      description:
-        "Developing recommendation systems and price recommendations for customers based on previous purchase data.\nExperimenting with AI agents to optimize internal business processes.\nResponsible for both technical implementation and team leadership.",
-      technologies: [
-        "Machine Learning",
-        "Python",
-        "ERP Systems",
-        "Project Management",
-        "AI Agents",
-        "Recommendation Systems"
-      ],
-      links: [
-        {
-          icon: <Icons.github className="size-4" />,
-          type: "github",
-          href: "https://github.com/CogitoNTNU/cogitoxinfor-agents",
-        },
-      ],
-      image: "",
-      video: getVideoUrl("InforBrowserUse2.mp4")
     },
     {
       title: "News Recommendation System",
@@ -339,7 +360,7 @@ export const DATA = {
       location: "Trondheim",
       description:
         "We won the Recover Norge Hackathon by developing a machine learning solution to predict missing actions in repair calculations. Recover Norge helps people when their homes are damaged, but their team often spends hours manually identifying missing actions. We built an ensemble model combining XGBoost, CatBoost, LightGBM, and a custom neural network to automate this process. For the final task, we created three live production demos in just a few hours based on real problems Recover faces daily, demonstrating practical tools they could immediately use to speed up their workflow and focus on fixing homes instead of fixing calculations.",
-      image: getImageUrl("recover.png"),
+      image: getLogoUrl("recoverlogo.png"),
       win: "1st place",
       links: []
     },
