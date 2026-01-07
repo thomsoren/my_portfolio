@@ -120,29 +120,6 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Bridgable MCP",
-      href: "https://bridgable.ai/",
-      dates: "October 2025",
-      active: true,
-      description:
-        "Built MCP server that gives AI agents instant access to OpenBridge domain knowledge. Integrated RAG system to enable one-line installation for querying OpenBridge documentation and APIs.",
-      technologies: [
-        "MCP",
-        "RAG",
-        "AI Agents",
-        "Python"
-      ],
-      links: [
-        {
-          icon: <Icons.globe className="size-4" />,
-          type: "website",
-          href: "https://bridgable.ai/",
-        },
-      ],
-      image: "",
-      video: getVideoUrl("bridgablemcpdemo.mp4")
-    },
-    {
       title: "PokeClicker",
       href: "https://github.com/thomsoren/PokeClicker",
       dates: "September - November 2025",
@@ -169,6 +146,29 @@ export const DATA = {
       ],
       image: "",
       video: getVideoUrl("pokemondemo.mp4")
+    },
+    {
+      title: "Bridgable MCP",
+      href: "https://bridgable.ai/",
+      dates: "October 2025",
+      active: true,
+      description:
+        "Built MCP server that gives AI agents instant access to OpenBridge domain knowledge. Integrated RAG system to enable one-line installation for querying OpenBridge documentation and APIs.",
+      technologies: [
+        "MCP",
+        "RAG",
+        "AI Agents",
+        "Python"
+      ],
+      links: [
+        {
+          icon: <Icons.globe className="size-4" />,
+          type: "website",
+          href: "https://bridgable.ai/",
+        },
+      ],
+      image: "",
+      video: getVideoUrl("bridgablemcpdemo.mp4")
     },
     {
       title: "Vervify",
@@ -203,7 +203,7 @@ export const DATA = {
       dates: "2023 - 2025",
       active: true,
       description:
-        "Led team of 4 building ML recommendation systems for Infor ERP. Developed product recommendation engine and price prediction models using customer purchase history. Currently implementing AI agents to automate business processes.",
+        "Led team of 9 students building ML recommendation systems for Infor ERP. Developed product recommendation engine and price prediction models using customer purchase history. Built no-code browser test automation tool for cloud ERP, replacing thousands of hours of manual testing.",
       technologies: [
         "Python",
         "Machine Learning",
