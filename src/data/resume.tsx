@@ -120,58 +120,6 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Ideate",
-      href: "https://ideate.thomasns.com/",
-      dates: "December 2025",
-      active: true,
-      description:
-        "Single Sign-On connectors integrated with a chat interface.\nStreamlined authentication system that provides seamless user experience across multiple platforms.",
-      technologies: [
-        "SSO",
-        "Authentication",
-        "Chat Interface",
-        "TypeScript"
-      ],
-      links: [
-        {
-          icon: <Icons.github className="size-4" />,
-          type: "github",
-          href: "https://github.com/thomsoren/ideate",
-        },
-        {
-          icon: <Icons.globe className="size-4" />,
-          type: "website",
-          href: "https://ideate.thomasns.com/",
-        },
-      ],
-      image: "",
-      video: ""
-    },
-    {
-      title: "thinkdraw",
-      href: "https://github.com/thomsoren/thinkdraw",
-      dates: "December 2025",
-      active: true,
-      description:
-        "Voice-to-voice AI-powered mind mapping tool that automatically generates visual mind maps from spoken input.\nCombines speech recognition, natural language processing, and automatic diagram generation to transform ideas into visual representations.",
-      technologies: [
-        "AI",
-        "Voice Recognition",
-        "Mind Mapping",
-        "NLP",
-        "Automatic Visualization"
-      ],
-      links: [
-        {
-          icon: <Icons.github className="size-4" />,
-          type: "github",
-          href: "https://github.com/thomsoren/thinkdraw",
-        },
-      ],
-      image: "",
-      video: ""
-    },
-    {
       title: "Bridgable MCP",
       href: "https://bridgable.ai/",
       dates: "October 2025",
@@ -251,7 +199,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: ""
+      video: getVideoUrl("vervifydemo.mp4")
     },
     {
       title: "Cogito x Infor",
@@ -307,30 +255,6 @@ export const DATA = {
       image: "",
       video: getVideoUrl("Futleie.mp4")
     },
-    {
-      title: "News Recommendation System",
-      href: "https://github.com/jernbert/TDT4215---Recommender-Project",
-      dates: "2025",
-      active: false,
-      description:
-        "Developed a content-based recommendation system for news articles that uses sentence transformers to find similar articles based on user preferences.\nResponsible for the entire pipeline from data collection to implementation of the recommendation algorithm.",
-      technologies: [
-        "Python",
-        "Sentence Transformers",
-        "Machine Learning",
-        "NLP"
-      ],
-      links: [
-        {
-          icon: <Icons.github className="size-4" />,
-          type: "github",
-          href: "https://github.com/jernbert/TDT4215---Recommender-Project",
-        },
-      ],
-      image: "",
-      video: getVideoUrl("News_recommender.mp4")
-    },
-
     {
       title: "Kollapp",
       href: "https://github.com/ludvigovrevik/Kollapp",
