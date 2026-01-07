@@ -125,13 +125,12 @@ export const DATA = {
       dates: "October 2025",
       active: true,
       description:
-        "Making any AI agent a specialist at OpenBridge with one-line installation.\nConnects to RAG (Retrieval-Augmented Generation) to retrieve relevant information, enabling agents to quickly become domain experts in OpenBridge systems.",
+        "Built MCP server that gives AI agents instant access to OpenBridge domain knowledge. Integrated RAG system to enable one-line installation for querying OpenBridge documentation and APIs.",
       technologies: [
-        "AI Agents",
-        "RAG",
-        "OpenBridge",
         "MCP",
-        "Machine Learning"
+        "RAG",
+        "AI Agents",
+        "Python"
       ],
       links: [
         {
@@ -149,13 +148,12 @@ export const DATA = {
       dates: "September - November 2025",
       active: true,
       description:
-        "A reimagined version of Pokemon built as a web application using modern technologies.\nInteractive game experience combining classic Pokemon gameplay with modern web development.",
+        "Built web-based Pokemon game with React and TypeScript. Implemented game state management, MongoDB backend for saving progress, and interactive battle system.",
       technologies: [
         "React",
-        "Vite",
-        "MongoDB",
         "TypeScript",
-        "Game Development"
+        "MongoDB",
+        "Vite"
       ],
       links: [
         {
@@ -178,13 +176,11 @@ export const DATA = {
       dates: "August 2025",
       active: true,
       description:
-        "A comprehensive platform that brings together all student organizations at NTNU in one centralized website.\nOrganizations register themselves, creating a unified directory for students to discover and engage with campus activities.",
+        "Built centralized directory for all NTNU student organizations. Implemented self-service registration system and search functionality to help students discover campus activities.",
       technologies: [
-        "Web Development",
-        "Database Management",
-        "User Registration",
-        "NTNU",
-        "Student Platform"
+        "Next.js",
+        "TypeScript",
+        "PostgreSQL"
       ],
       links: [
         {
@@ -207,14 +203,12 @@ export const DATA = {
       dates: "2023 - 2025",
       active: true,
       description:
-        "Developing recommendation systems and price recommendations for customers based on previous purchase data.\nExperimenting with AI agents to optimize internal business processes.\nResponsible for both technical implementation and team leadership.",
+        "Led team of 4 building ML recommendation systems for Infor ERP. Developed product recommendation engine and price prediction models using customer purchase history. Currently implementing AI agents to automate business processes.",
       technologies: [
-        "Machine Learning",
         "Python",
-        "ERP Systems",
-        "Project Management",
+        "Machine Learning",
         "AI Agents",
-        "Recommendation Systems"
+        "scikit-learn"
       ],
       links: [
         {
@@ -232,13 +226,12 @@ export const DATA = {
       dates: "2025",
       active: false,
       description:
-        "A rental website developed in the Software Development course.\nFocus on user experience, secure login, and simple administration of rental objects.\nThe work provided good insight into planning, coding, and testing a complete web application.",
+        "Built rental marketplace web app with Next.js and Supabase. Implemented authentication, item listing/browsing, and admin dashboard for managing rental inventory.",
       technologies: [
         "Next.js",
-        "Tailwind CSS",
+        "TypeScript",
         "Supabase",
-        "Fullstack web development",
-        "Software development"
+        "Tailwind CSS"
       ],
       links: [
         {
@@ -261,7 +254,7 @@ export const DATA = {
       dates: "2024",
       active: false,
       description:
-        "App for students in shared housing that simplifies daily life by making it easy to share tasks like garbage and cleaning, handle settlements when splitting food costs, and communicate via integrated group chat. Automates many of the challenges students in shared housing face.",
+        "Built desktop app for student shared housing management. Implemented task scheduling, expense splitting with automated settlements, and group chat using Java and JavaFX.",
       technologies: [
         "Java",
         "JavaFX"
