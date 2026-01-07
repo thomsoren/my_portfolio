@@ -276,7 +276,7 @@ export const DATA = {
       dates: "October 24-25, 2025",
       location: "Trondheim",
       description:
-        "We won the Recover Norge Hackathon by developing a machine learning solution to predict missing actions in repair calculations. Recover Norge helps people when their homes are damaged, but their team often spends hours manually identifying missing actions. We built an ensemble model combining XGBoost, CatBoost, LightGBM, and a custom neural network to automate this process. For the final task, we created three live production demos in just a few hours based on real problems Recover faces daily, demonstrating practical tools they could immediately use to speed up their workflow and focus on fixing homes instead of fixing calculations.",
+        "Built ML ensemble model to predict missing actions in home repair calculations. Trained XGBoost, CatBoost, LightGBM, and custom neural network to automate manual identification process. Delivered three production-ready demos solving real workflow problems.",
       image: getLogoUrl("recoverlogo.png"),
       win: "1st place",
       links: []
@@ -286,7 +286,7 @@ export const DATA = {
       dates: "August 2025",
       location: "Norway",
       description:
-        "We won 2nd place in the Norwegian AI Championship 2025 with Cogito, a week-long competition featuring three challenging tasks: NLP with retrieval-augmented generation for medical documents, reinforcement learning with a self-driving car, and computer vision with tumor segmentation.",
+        "Week-long AI competition with three tasks: built RAG system for medical document NLP, trained RL agent for autonomous driving, and implemented computer vision model for tumor segmentation.",
       image: getImageUrl("nm-ai.png"),
       win: "2nd place - Norwegian AI Championship",
       links: []
@@ -296,7 +296,7 @@ export const DATA = {
       dates: "April 4-5, 2025",
       location: "Trondheim",
       description:
-        "During a 16-hour hackathon organized by A* Consulting in collaboration with Norges Gruppen and Cogito, we developed a real-time AI system (YOLOv11) for automatic product classification, receipt generation, and theft detection in self-checkout systems. Our live demo using mobile camera, web app, and a robust computer vision model secured us a solid third place.",
+        "Built real-time YOLOv11 system for self-checkout with automatic product classification, receipt generation, and theft detection. Developed web app with mobile camera integration for live demo.",
       image: getImageUrl("astar.jpeg"),
       win: "3rd place",
       links: []
@@ -306,7 +306,7 @@ export const DATA = {
       dates: "March 15-16, 2025",
       location: "Trondheim",
       description:
-        "Organized by DNV with a focus on developing an object detection model for autonomous vessels. The task was to create a machine learning model for obstacle detection – a critical step in developing autonomous collision avoidance. The competition was conducted on Kaggle, with 24 hours to achieve the highest possible accuracy, while emphasizing model interpretability and risk assessment. We ended up in second place and were awarded best presentation and most creative approach. We used computer vision models like YOLO 11.",
+        "Built YOLO 11 object detection model for autonomous vessel obstacle detection and collision avoidance. 24-hour Kaggle competition focused on model accuracy, interpretability, and risk assessment.",
       image: getImageUrl("brainlogo.png"),
       win: "2nd place | Best presentation | Most creative approach",
       links: []
@@ -316,7 +316,7 @@ export const DATA = {
       dates: "October 25-27, 2024",
       location: "Trondheim",
       description:
-        "Participated in a 48-hour hackathon organized by Start Code, where we solved a case from one of their main partners, emno. We worked on automatically connecting a Raspberry Pi to a website. It was an intense and educational experience that provided insight into both hardware integration and web development under time pressure.",
+        "Built automated Raspberry Pi to web integration for emno. Implemented hardware-to-web connection system during 48-hour hackathon.",
       image: getImageUrl("startntnu.jpeg"),
       links: []
     },
