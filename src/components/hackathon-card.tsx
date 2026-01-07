@@ -8,6 +8,7 @@ interface Props {
   dates: string;
   location: string;
   image?: string;
+  win?: string;
   links?: readonly {
     icon: React.ReactNode;
     title: string;
@@ -21,6 +22,7 @@ export function HackathonCard({
   dates,
   location,
   image,
+  win,
   links,
 }: Props) {
   return (
@@ -36,8 +38,10 @@ export function HackathonCard({
           <time className="text-xs text-muted-foreground">{dates}</time>
         )}
         <h2 className="font-semibold leading-none">{title}</h2>
-        {location && (
-          <p className="text-sm text-muted-foreground">{location}</p>
+        {win && (
+          <Badge variant="secondary" className="w-fit text-xs">
+            {win}
+          </Badge>
         )}
         {description && (
           <span className="prose dark:prose-invert text-sm text-muted-foreground">
