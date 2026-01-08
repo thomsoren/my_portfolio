@@ -318,6 +318,7 @@ export const DATA = {
       description:
         "Built automated Raspberry Pi to web integration for emno. Implemented hardware-to-web connection system during 48-hour hackathon.",
       image: getImageUrl("startntnu.jpeg"),
+      win: undefined,
       links: []
     },
   ],
