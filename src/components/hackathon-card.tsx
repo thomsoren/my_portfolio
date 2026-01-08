@@ -6,7 +6,7 @@ interface Props {
   title: string;
   description: string;
   dates: string;
-  location: string;
+  location?: string;
   image?: string;
   win?: string;
   links?: readonly {
