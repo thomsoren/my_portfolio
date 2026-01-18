@@ -120,6 +120,30 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "ThinkDraw",
+      href: "https://thinkdraw.thomasns.com",
+      dates: "January 2026",
+      active: true,
+      description:
+        "Speak your ideas and watch them become mindmaps, diagrams, or sketches in seconds. Turns messy thoughts into clean visuals without the drawing hassle.",
+      technologies: [
+        "Vite",
+        "SST",
+        "LLM",
+        "TTS",
+        "tldraw SDK"
+      ],
+      links: [
+        {
+          icon: <Icons.globe className="size-4" />,
+          type: "website",
+          href: "https://thinkdraw.thomasns.com",
+        },
+      ],
+      image: "",
+      video: getVideoUrl("thinkdrawdemo.mp4")
+    },
+    {
       title: "PokeClicker",
       href: "https://github.com/thomsoren/PokeClicker",
       dates: "September - November 2025",
