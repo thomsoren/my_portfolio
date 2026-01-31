@@ -120,6 +120,34 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "OpenAR Maritime",
+      href: "https://ar.bridgable.ai/",
+      dates: "January 2026 - Present",
+      active: true,
+      description:
+        "Building the standard for POI video overlay with 7 developers. Real-time AR system combining computer vision, AIS data, and live video streaming for maritime navigation.",
+      technologies: [
+        "Computer Vision",
+        "AIS Integration",
+        "AR Overlay",
+        "Maritime Systems"
+      ],
+      links: [
+        {
+          icon: <Icons.github className="size-4" />,
+          type: "github",
+          href: "https://github.com/thomsoren/openar-it2901-ntnu",
+        },
+        {
+          icon: <Icons.globe className="size-4" />,
+          type: "website",
+          href: "https://ar.bridgable.ai/",
+        },
+      ],
+      image: "",
+      video: getVideoUrl("openar-demo.mp4")
+    },
+    {
       title: "ThinkDraw",
       href: "https://thinkdraw.thomasns.com",
       dates: "January 2026",
