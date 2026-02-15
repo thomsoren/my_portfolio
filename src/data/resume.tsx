@@ -14,7 +14,6 @@ export const DATA = {
     "I like building. I like learning. And I like the feeling when a messy workflow becomes a simple product. That's why I spend time on evaluation, reliability, and shipping, not just demos.",
   avatarUrl: getImageUrl("thomas-profilbilde.jpg"),
   skills: [
-    "Python",
     "Machine Learning",
     "RAG",
     "Computer Vision",
@@ -23,6 +22,7 @@ export const DATA = {
     "MCP",
     "Recommender Systems",
     "TypeScript",
+    "Python",
     "React",
     "Next.js",
     "Node.js",
@@ -324,6 +324,16 @@ export const DATA = {
   ],
   hackathons: [
     {
+      title: "Brain x Bouvet 2026",
+      dates: "February 13-14, 2026",
+      location: "Trondheim",
+      description:
+        "Built agentic AI political party system with realtime conversational avatars, multiagent governance visualization, and voting mechanisms. Connected ministers to web, RAG, and custom tools with domain-optimized system prompts using GEPA.",
+      image: getImageUrl("brainlogo.png"),
+      win: "1st place | Majority vote from contestants",
+      links: []
+    },
+    {
       title: "Recover Norge Hackathon",
       dates: "October 24-25, 2025",
       location: "Trondheim",
@@ -340,7 +350,7 @@ export const DATA = {
       description:
         "Week-long AI competition with three tasks: built RAG system for medical document NLP, trained RL agent for autonomous driving, and implemented computer vision model for tumor segmentation.",
       image: getImageUrl("nm-ai.png"),
-      win: "2nd place - Norwegian AI Championship",
+      win: "2nd place",
       links: []
     },
     {
