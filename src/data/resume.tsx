@@ -9,7 +9,7 @@ export const DATA = {
   location: "Trondheim, Norway",
   locationLink: "https://www.google.com/maps/place/trondheim",
   description:
-    "I help teams ship reliable AI.\nFrom problem to product.",
+    "I build, ship, and compete.",
   summary:
     "I like building. I like learning. And I like the feeling when a messy workflow becomes a simple product. That's why I spend time on evaluation, reliability, and shipping, not just demos.",
   avatarUrl: getImageUrl("thomas-profilbilde.jpg"),
@@ -324,6 +324,26 @@ export const DATA = {
   ],
   hackathons: [
     {
+      title: "Norwegian AI Championship 2026",
+      dates: "March 19-22, 2026",
+      location: "Norway",
+      description:
+        "Biggest NM i AI ever with 350+ teams and 3100 participants. Built civilization evolution predictor, Tripletex accounting agent, and trained YOLO26x on A100 for grocery detection. Scored higher than 1st and 2nd place in 2 of 3 tasks.",
+      image: getImageUrl("nm-i-ai-logo.ico"),
+      win: "11th place | 350+ teams",
+      links: []
+    },
+    {
+      title: "HackEurope 2026",
+      dates: "February 21-22, 2026",
+      location: "Stockholm",
+      description:
+        "Europe's largest hackathon across Paris, Dublin, and Stockholm with 1000+ builders. Built an agentic sales automation demo that handles follow-ups and syncs HubSpot, Slack, Gmail, and Stripe automatically.",
+      image: getImageUrl("hackeurope-logo.png"),
+      win: undefined,
+      links: []
+    },
+    {
       title: "Brain x Bouvet 2026",
       dates: "February 13-14, 2026",
       location: "Trondheim",
@@ -368,7 +388,7 @@ export const DATA = {
       dates: "March 15-16, 2025",
       location: "Trondheim",
       description:
-        "Built YOLO 11 object detection model for autonomous vessel obstacle detection and collision avoidance. 24-hour Kaggle competition focused on model accuracy, interpretability, and risk assessment.",
+        "Built YOLO 11 object detection models for autonomous vessel obstacle detection. Achieved top 4 models in the 24-hour Kaggle competition for collision avoidance and risk assessment.",
       image: getImageUrl("brainlogo.png"),
       win: "2nd place | Best presentation | Most creative approach",
       links: []
