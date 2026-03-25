@@ -3,7 +3,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 import { getAssetUrl, getVideoUrl, getImageUrl, getLogoUrl } from "@/lib/s3";
 
 export const DATA = {
-  name: "Thomas Nordby Sørensen",
+  name: "Thomas Sorensen",
   initials: "TN",
   url: "https://thomas-portfolio.example.com",
   location: "Trondheim, Norway",
