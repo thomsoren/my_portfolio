@@ -4,7 +4,7 @@ import { getAssetUrl, getVideoUrl, getImageUrl, getLogoUrl } from "@/lib/s3";
 
 export const DATA = {
   name: "Thomas Sorensen",
-  initials: "TN",
+  initials: "TS",
   url: "https://thomas-portfolio.example.com",
   location: "Trondheim, Norway",
   locationLink: "https://www.google.com/maps/place/trondheim",
