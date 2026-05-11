@@ -21,7 +21,7 @@ const BlurFade = ({
   children,
   className,
   variant,
-  duration = 0.4,
+  duration = 0.1,
   delay = 0,
   yOffset = 6,
   inView = false,
@@ -45,7 +45,7 @@ const BlurFade = ({
         exit="hidden"
         variants={combinedVariants}
         transition={{
-          delay: 0.04 + delay,
+          delay: delay,
           duration,
           ease: "easeOut",
         }}

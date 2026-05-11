@@ -11,7 +11,7 @@ export const DATA = {
   description:
     "I build, ship, and compete.",
   summary:
-    "I like building. I like learning. And I like the feeling when a messy workflow becomes a simple product. That's why I spend time on evaluation, reliability, and shipping, not just demos.",
+    "CS student who'd rather ship something rough on Friday than present a perfect slide deck on Monday.",
   avatarUrl: getImageUrl("thomas-cogito.jpeg"),
   skills: [
     "Machine Learning",
@@ -132,7 +132,7 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "OpenAR Maritime",
+      title: "Maritime AR Overlay",
       href: "https://ar.bridgable.ai/",
       dates: "January 2026 - Present",
       active: true,
@@ -141,8 +141,7 @@ export const DATA = {
       technologies: [
         "Computer Vision",
         "AIS Integration",
-        "AR Overlay",
-        "Maritime Systems"
+        "AR Overlay"
       ],
       links: [
         {
