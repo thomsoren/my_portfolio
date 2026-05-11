@@ -12,7 +12,7 @@ export const DATA = {
     "I build, ship, and compete.",
   summary:
     "I like building. I like learning. And I like the feeling when a messy workflow becomes a simple product. That's why I spend time on evaluation, reliability, and shipping, not just demos.",
-  avatarUrl: getImageUrl("thomas-profilbilde.jpg"),
+  avatarUrl: getImageUrl("thomas-cogito.jpeg"),
   skills: [
     "Machine Learning",
     "RAG",
