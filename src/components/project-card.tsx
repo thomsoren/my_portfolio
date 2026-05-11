@@ -56,13 +56,13 @@ function ProjectDetailContent({
           preload="metadata"
           disablePictureInPicture
           {...({ 'webkit-playsinline': 'true' } as any)}
-          className="pointer-events-none mx-auto w-full object-cover object-top min-h-[200px] rounded-t-2xl"
+          className="pointer-events-none mx-auto w-full object-cover object-top min-h-[200px]"
         />
       )}
       {image && (
         <Image
           src={image} alt={title} width={800} height={450}
-          className="w-full overflow-hidden object-cover object-top min-h-[200px] rounded-t-2xl"
+          className="w-full overflow-hidden object-cover object-top min-h-[200px]"
         />
       )}
       <CardHeader className="px-6 pt-8">
@@ -199,7 +199,7 @@ export function ProjectCard({
       <Drawer.Root open={drawerOpen} onOpenChange={setDrawerOpen} noBodyStyles>
         <Drawer.Portal>
           <Drawer.Overlay className="fixed inset-0 bg-black/50 z-40" />
-          <Drawer.Content className="fixed bottom-0 left-0 right-0 z-50 flex flex-col rounded-t-2xl bg-background max-h-[95vh]">
+          <Drawer.Content className="fixed bottom-0 left-0 right-0 z-50 flex flex-col rounded-t-2xl bg-background max-h-[95vh] overflow-hidden">
             <div className="absolute top-2 left-1/2 -translate-x-1/2 z-10 h-1 w-10 rounded-full bg-white/50" />
             <div className="overflow-y-auto pb-20">
               <ProjectDetailContent

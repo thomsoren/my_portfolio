@@ -37,7 +37,7 @@ export function HackathonCard({
       className="group relative ml-10 py-4 cursor-pointer"
       onClick={() => setOpen(!open)}
     >
-      <div className="absolute -left-16 top-2 flex items-center justify-center bg-white rounded-full">
+      <div className="absolute -left-16 top-2 flex items-center justify-center bg-background rounded-full">
         <Avatar className="border size-12 m-auto">
           <AvatarImage src={image} alt={title} className="object-contain" />
           <AvatarFallback>{title[0]}</AvatarFallback>

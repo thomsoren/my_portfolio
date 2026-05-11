@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import BlurFade from "@/components/magicui/blur-fade";
 import { ProjectCard } from "@/components/project-card";
 
@@ -25,10 +25,21 @@ interface Project {
 
 export function ProjectsSection({ projects }: { projects: readonly Project[] }) {
   const [showAll, setShowAll] = useState(false);
+  const sectionRef = useRef<HTMLDivElement>(null);
   const visible = showAll ? projects : projects.slice(0, INITIAL_COUNT);
 
+  const handleToggle = () => {
+    if (showAll) {
+      sectionRef.current?.scrollIntoView({ behavior: "smooth", block: "center" });
+      // Delay collapsing until scroll completes
+      setTimeout(() => setShowAll(false), 300);
+    } else {
+      setShowAll(true);
+    }
+  };
+
   return (
-    <div className="space-y-6 w-full py-12">
+    <div ref={sectionRef} className="space-y-6 w-full py-12">
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
         {visible.map((project, id) => (
           <BlurFade
@@ -52,7 +63,7 @@ export function ProjectsSection({ projects }: { projects: readonly Project[] }) 
       {projects.length > INITIAL_COUNT && (
         <div className="flex justify-center">
           <button
-            onClick={() => setShowAll(!showAll)}
+            onClick={handleToggle}
             className="text-sm text-muted-foreground hover:text-foreground transition-colors"
           >
             {showAll ? "Show less" : "Show more"}

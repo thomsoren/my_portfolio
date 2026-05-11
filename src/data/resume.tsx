@@ -145,11 +145,6 @@ export const DATA = {
       ],
       links: [
         {
-          icon: <Icons.github className="size-4" />,
-          type: "github",
-          href: "https://github.com/thomsoren/openar-it2901-ntnu",
-        },
-        {
           icon: <Icons.globe className="size-4" />,
           type: "website",
           href: "https://ar.bridgable.ai/",
