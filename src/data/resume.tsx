@@ -44,7 +44,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/thomas-nordby-s%C3%B8rensen-80253b1ab/",
+        url: "https://www.linkedin.com/in/thomasns/",
         icon: Icons.linkedin,
         navbar: true,
       },
@@ -69,6 +69,18 @@ export const DATA = {
       end: "Present",
       description:
         "Working as a part-time software developer while studying, focusing on full-stack development and contributing to innovative software solutions.",
+    },
+    {
+      company: "Altek",
+      href: "",
+      badges: [],
+      location: "Remote",
+      title: "AI Engineer",
+      logoUrl: getLogoUrl("altek.jpeg"),
+      start: "Mar 2026",
+      end: "May 2026",
+      description:
+        "Automating customer service for 70+ hotels using AI, streamlining support workflows and improving response efficiency across the hotel portfolio.",
     },
     {
       company: "Rystad Energy",
