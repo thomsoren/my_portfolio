@@ -177,28 +177,24 @@ export default function Page() {
         </BlurFade>
       </section>
       <section id="contact">
-        <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
-          <BlurFade delay={BLUR_FADE_DELAY * 15} inView>
-            <div className="space-y-3">
-              <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                Contact
-              </div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Get in touch
-                </h2>
-                <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Want to chat? Feel free to reach out via{" "}
-                <Link
-                  href={DATA.contact.social.LinkedIn.url}
-                  className="text-blue-500 hover:underline"
-                >
-                  LinkedIn
-                </Link>{" "}
-                or send me an email at {DATA.contact.email}.
-              </p>
-            </div>
-          </BlurFade>
-        </div>
+        <BlurFade delay={BLUR_FADE_DELAY * 15} inView>
+          <p className="text-sm text-muted-foreground">
+            Reach me on{" "}
+            <Link
+              href={DATA.contact.social.LinkedIn.url}
+              className="text-blue-500 hover:underline"
+            >
+              LinkedIn
+            </Link>{" "}
+            or at{" "}
+            <Link
+              href={`mailto:${DATA.contact.email}`}
+              className="text-blue-500 hover:underline"
+            >
+              {DATA.contact.email}
+            </Link>
+          </p>
+        </BlurFade>
       </section>
     </main>
   );
