@@ -11,21 +11,25 @@ export const DATA = {
   description:
     "I build, ship, and compete.",
   summary:
-    "CS student who'd rather ship something rough on Friday than present a perfect slide deck on Monday.",
+    "Co-founder and CEO of Lito, the tactile data layer for physical AI.",
   avatarUrl: getImageUrl("thomas-cogito.jpeg"),
   skills: [
-    "Machine Learning",
-    "RAG",
-    "Computer Vision",
-    "Reinforcement Learning",
     "AI Agents",
     "MCP",
+    "Machine Learning",
+    "Computer Vision",
+    "YOLO",
+    "Reinforcement Learning",
+    "Robotics",
+    "MuJoCo",
+    "RAG",
     "Recommender Systems",
-    "TypeScript",
     "Python",
+    "TypeScript",
     "React",
     "Next.js",
     "Node.js",
+    "PostgreSQL",
     "Java",
     "Git"
   ],
@@ -59,16 +63,64 @@ export const DATA = {
 
   work: [
     {
-      company: "OpenBridge",
-      href: "",
+      company: "Lito",
+      href: "https://lito.so/",
       badges: [],
-      location: "Oslo",
-      title: "Part-time Software Developer",
-      logoUrl: getLogoUrl("openbridge.png"),
-      start: "Aug 2025",
+      location: "Trondheim",
+      title: "CEO, Co-founder",
+      logoUrl: "/logos/lito.png",
+      start: "Aug 2026",
       end: "Present",
       description:
-        "Working as a part-time software developer while studying, focusing on full-stack development and contributing to innovative software solutions.",
+        "The tactile data layer for physical AI. High-fidelity force and touch data for training robot manipulation.",
+    },
+    {
+      company: "EverestLabs.AI",
+      href: "https://www.everestlabs.ai/",
+      badges: [],
+      location: "California",
+      title: "AI Engineer",
+      logoUrl: "/logos/everestlabs.png",
+      start: "Jun 2026",
+      end: "Aug 2026",
+      description:
+        "Improved their computer vision system by 10% mAP50 score.",
+    },
+    {
+      company: "Bridgable",
+      href: "https://bridgable.ai/",
+      badges: [],
+      location: "Trondheim",
+      title: "CEO, Founder",
+      logoUrl: "/logos/bridgable.png",
+      start: "Jan 2026",
+      end: "May 2026",
+      description:
+        "Lovable for industrial control systems.",
+    },
+    {
+      company: "Cogito NTNU",
+      href: "https://cogito-ntnu.no/",
+      badges: [],
+      location: "Trondheim",
+      title: "CMO",
+      logoUrl: "/logos/cogito.png",
+      start: "Jan 2026",
+      end: "May 2026",
+      description:
+        "Norway's biggest AI student organization.",
+    },
+    {
+      company: "OpenBridge",
+      href: "https://www.openbridge.no/",
+      badges: [],
+      location: "Oslo",
+      title: "Software Developer",
+      logoUrl: getLogoUrl("openbridge.png"),
+      start: "Aug 2025",
+      end: "May 2026",
+      description:
+        "Building open source web components \u2014 the industry standard for maritime. Part time.",
     },
     {
       company: "Altek",
@@ -77,64 +129,101 @@ export const DATA = {
       location: "Remote",
       title: "AI Engineer",
       logoUrl: getLogoUrl("altek.jpeg"),
-      start: "Mar 2026",
-      end: "May 2026",
+      start: "Feb 2026",
+      end: "Apr 2026",
       description:
-        "Automating customer service for 70+ hotels using AI, streamlining support workflows and improving response efficiency across the hotel portfolio.",
+        "Automated customer service for 70+ hotels with AI agents. Part time.",
+    },
+    {
+      company: "Infor",
+      href: "",
+      badges: [],
+      location: "Trondheim",
+      title: "Team Lead (AI Intern)",
+      logoUrl: "/logos/infor.png",
+      start: "Mar 2024",
+      end: "Dec 2025",
+      description:
+        "Led a team of 9 people for 3 semesters with the world's third-largest ERP provider. Built AI for test automation, recommender systems and price recommendation.",
     },
     {
       company: "Rystad Energy",
       href: "",
       badges: [],
       location: "Oslo",
-      title: "Summer Intern",
+      title: "AI Intern",
       logoUrl: getLogoUrl("rystad.png"),
       start: "Jun 2025",
       end: "Aug 2025",
       description:
-        "Summer internship at a leading energy intelligence company, gaining experience in data analysis and software development within the energy sector.",
+        "Made their data AI friendly with MCP.",
     },
     {
-      company: "Cogito x Infor",
+      company: "Norwegian Armed Forces",
       href: "",
       badges: [],
-      location: "Trondheim",
-      title: "AI Intern / Project Leader",
-      logoUrl: getLogoUrl("cog.png"),
-      start: "2024",
-      end: "2025",
+      location: "Norway",
+      title: "Guard",
+      logoUrl: "/logos/forsvaret.png",
+      start: "Jan 2022",
+      end: "Jan 2023",
       description:
-        "Lead a team of 4 students in collaboration with Infor, the world's third-largest ERP systems provider.\nDeveloped several AI-based solutions, including recommendation systems, price recommendations, and now AI agents to improve business processes.\nFocusing on machine learning, project management, and practical implementation of AI solutions.",
-    },
-    {
-      company: "Nightlife Industry",
-      badges: [],
-      href: getLogoUrl("securitas.png"),
-      location: "Trondheim",
-      title: "Security Guard",
-      logoUrl: getLogoUrl("securitas.png"),
-      start: "2023",
-      end: "2025",
-      description:
-        "Responsible for guest safety at various nightlife venues.\nDeveloping strong communication and collaboration skills by handling challenging situations at a fast pace.",
+        "Military service.",
     },
   ],
   education: [
     {
+      school: "University of California, Berkeley",
+      href: "https://www.berkeley.edu/",
+      degree: "MA, Entrepreneurship",
+      logoUrl: "/logos/berkeley.png",
+      start: "Jun 2026",
+      end: "Aug 2026",
+      description: "Entrepreneurship program at UC Berkeley."
+    },
+    {
       school: "NTNU",
       href: "https://www.ntnu.no/",
-      degree: "Bachelor in Computer Science",
+      degree: "BA, Computer Science",
       logoUrl: getLogoUrl("ntnu-logo.png"),
-      start: "2023",
-      end: "2026 (ongoing)",
+      start: "Aug 2023",
+      end: "May 2026",
       description: "Studying programming, algorithms, databases, and web development.\nCombining theoretical and practical skills to create robust IT solutions."
     },
   ],
   projects: [
     {
+      title: "Autoresearch Robotics",
+      href: "https://hack.lito.so/autoresearch.html",
+      dates: "September 2026",
+      active: true,
+      description:
+        "A robot that improves itself. It attempts a task, a second AI writes down what went wrong, and the new instructions are only kept if the robot measurably does better. Lift success went from 2/3 to 3/3 in development and 3/5 to 4/5 on unseen starting states, with 41% fewer controller steps. Built in 10 hours at Mad Hack.",
+      technologies: [
+        "MuJoCo",
+        "Robosuite",
+        "Python",
+        "AI Agents"
+      ],
+      links: [
+        {
+          icon: <Icons.github className="size-4" />,
+          type: "github",
+          href: "https://github.com/thomsoren/autoresearch-robotics",
+        },
+        {
+          icon: <Icons.globe className="size-4" />,
+          type: "website",
+          href: "https://hack.lito.so/autoresearch.html",
+        },
+      ],
+      image: "",
+      video: "/videos/autoresearch-lift.mp4"
+    },
+    {
       title: "Maritime AR Overlay",
       href: "https://ar.bridgable.ai/",
-      dates: "January 2026 - Present",
+      dates: "January - May 2026",
       active: true,
       description:
         "Building the standard for POI video overlay with 7 developers. Real-time AR system combining computer vision, AIS data, and live video streaming for maritime navigation.",
@@ -329,6 +418,27 @@ export const DATA = {
     },
   ],
   hackathons: [
+    {
+      title: "Mad Hack 2026",
+      dates: "September 12, 2026",
+      location: "Oslo",
+      description:
+        "Built a robot that improves itself in 10 hours. It attempts a task, a second AI writes down what went wrong, and the new instructions are only kept if the robot measurably does better. Lift success went from 2/3 to 3/3 in development and 3/5 to 4/5 on unseen starting states, with 41% fewer controller steps. Built with MuJoCo and Robosuite together with Ludvig \u00d8vrevik and Laksiya Balasubramaniam.",
+      image: "/logos/madlab.png",
+      win: "1st place | Hosted by AI Mad Lab",
+      links: [
+        {
+          icon: <Icons.github className="size-4" />,
+          title: "Source",
+          href: "https://github.com/thomsoren/autoresearch-robotics",
+        },
+        {
+          icon: <Icons.globe className="size-4" />,
+          title: "Demo",
+          href: "https://hack.lito.so/autoresearch.html",
+        },
+      ]
+    },
     {
       title: "Norwegian AI Championship 2026",
       dates: "March 19-22, 2026",
